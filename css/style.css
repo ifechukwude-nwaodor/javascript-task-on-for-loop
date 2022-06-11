@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.imageCard{
+    height:150px;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-card{
+    height:80px;
+    width:80px;
+    border:2px solid #fff;
+    margin-top: -20px;
+}
+
+.img-card img:hover{
+    border:2px solid rgb(32, 20, 168)
+}
+.card:hover{
+    background-color: rgb(21, 21, 47);
+    color:rgb(171, 62, 26)
+}
+

@@ -112,9 +112,9 @@ let team_profile=[
 let row = document.getElementById('row');
 
 for (i = 0; i<team_profile.length; i++){
-   let memberProfile = `<div class="col-lg-4 mt-5 mb-5">
+   let memberProfile = `<div class="col-lg-4 col-md-6 mt-5 mb-5">
                            <div class="card">
-                              <div class="imageCard rounded-top" style="background:url(../${team_profile[i].img})">
+                              <div class="imageCard rounded-top" style="background-image:url(../${team_profile[i].img})">
                                   
                               </div>
                               <div class ="img-card mx-auto rounded-circle">

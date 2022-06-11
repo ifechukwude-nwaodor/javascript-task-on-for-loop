@@ -6,7 +6,8 @@
 
 .imageCard{
     height:150px;
-    background-position:center;
+    width:100%;
+    background-position:center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
